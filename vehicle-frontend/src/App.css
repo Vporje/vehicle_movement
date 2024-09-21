@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.inputContainer{
+  position: absolute;
+  z-index: 1;
+  /* width: 100%; */
+  left: 40%;
+  
+}
+
+.buttons{
+  background-color: rgba(127, 255, 212, 0.781);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.centerBtn{
+    border: 1px solid rgba(255, 182, 193, 0.822);
+  background-color: rgba(255, 182, 193, 0.432);
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid darkgray;
+  font-size: 14px;
+  font-weight: 700;
+}
