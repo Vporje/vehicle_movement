@@ -49,7 +49,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:5000/route-coordinates");
+        const response = await fetch("https://vehicle-movement-iota.vercel.app/route-coordinates");
         const result = await response.json();
         setCoordinates(result);
       } catch (err) {
