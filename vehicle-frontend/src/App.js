@@ -103,7 +103,7 @@ function App() {
       <div className="inputContainer">
         <div className="buttons">
           <button className="centerBtn" type="submit" onClick={calculateRoute}>
-            Search
+            Start
           </button>
           <button className="centerBtn" onClick={clearRoute}>
             Reset
